@@ -1,0 +1,10 @@
+Counter Assignment ✅
+
+addValue -
+1. addValue is Minimum 0 and Maximum 20
+
+removeValue -
+1. removeValue Should not be in Negative
+2. removeValue is Minimum than 0
+
+Use if-else, if required
