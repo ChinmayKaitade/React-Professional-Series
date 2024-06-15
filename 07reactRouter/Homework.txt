@@ -1,0 +1,4 @@
+# Homework Assignment ✅
+
+- Add Same NavBar Functionality of text color
+- Add NavLink concept on footer section, that is onHover text get orange in color 
