@@ -1,0 +1,6 @@
+Addition in reducers ✅
+
+- updateTodo
+- deleteTodo
+
+👉 add updateTodo and deleteTodo in reducers for todoSlice.js
