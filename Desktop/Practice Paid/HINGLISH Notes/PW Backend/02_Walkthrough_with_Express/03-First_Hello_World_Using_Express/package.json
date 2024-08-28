@@ -1,0 +1,20 @@
+{
+    "name": "hello_world",
+    "version": "1.0.0",
+    "description": "This is first hello world using Express",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "nodejs",
+      "express",
+      "npm"
+    ],
+    "author": "Chinmay Kaitade",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.19.2"
+    }
+  }
+  
