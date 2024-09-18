@@ -1,0 +1,5 @@
+RULE OF THUMB ✅
+
+- Whenever we are using Map function, why it is necessary to pass "key" to List ? its a compulsory step.Why?
+
+- Read Documentation: Lists and Keys

@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 6vh;
+  border: 7px dashed rgb(1, 17, 160);
+  border-radius: 20px;
+  padding: 1vh 5vw;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 400px;
+  height: max-content;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  user-select: none;
+}
+
+.image {
+  width: 380px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.tour-info {
+  margin: 20px 5px;
+}
+
+.tour-price {
+  color: #1faa59;
+  font-size: 1.3rem;
+}
+
+.tour-name {
+  font-size: 1.5rem;
+}
+
+.read-more {
+  color: #09b8f8;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.btn-red {
+  margin-top: 18px;
+  padding: 10px 80px;
+  border: 1px solid #b4161b;
+  cursor: pointer;
+  border-radius: 7px;
+  font-size: 18px;
+  font-weight: bold;
+  background: #b4161b21;
+  color: white;
+  text-align: center;
+  color: black;
+}
+
+.btn-red:hover {
+  background-color: red;
+  color: white;
+  /* transition: all 0.2s; */
+  transition: all ease-in 0.3s;
+}
+
+.refresh {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #d3d3d3;
+}
+
+.refresh h2 {
+  font-size: 3.2rem;
+  font-weight: 800;
+  word-spacing: -1;
+}
+
+.btn-text {
+  font-size: 1.4rem;
+}
+
+.btn-white {
+  margin-top: 18px;
+  padding: 14px 80px;
+  border: solid white;
+  border-radius: 7px;
+}
+
+.btn-white:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  border: 2px solid #1d73fe;
+}
+
+.footer h3 {
+  font-size: 1.1rem;
+  margin: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 1px;
+  user-select: none;
+}
