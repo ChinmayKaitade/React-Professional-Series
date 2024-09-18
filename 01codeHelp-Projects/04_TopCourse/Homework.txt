@@ -1,0 +1,5 @@
+// Homework 🔥
+
+1. If courses data is empty then show the UI for "No Data Found" (Cards component)
+
+2. If API call breaks, then show 404 Page Not Found Error (App component)
